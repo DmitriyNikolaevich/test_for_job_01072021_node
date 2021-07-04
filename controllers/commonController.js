@@ -41,6 +41,6 @@ exports.getProducts = (req, res) => {
 exports.postOrder = (req, res) => {
 
     const order = req.body
-    debugger
-    response.status(`Заказ на сумму ${order} принят.`, res)
+    
+    response.status(`Заказ принят.`, res)
 }
