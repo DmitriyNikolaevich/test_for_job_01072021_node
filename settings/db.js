@@ -2,11 +2,11 @@ const mysql = require('mysql')
 
 const connection = mysql.createPool({
     connectionLimit : 10,
-    host: 'eu-cdbr-west-01.cleardb.com',
+    host: 'us-cdbr-east-04.cleardb.com',
     port: 3306,
-    user: 'b9a370a6448b89',
-    password: '0b8ddc1f',
-    database: 'heroku_46d3bfe27dd65e9'
+    user: 'b4e11c7a453daa',
+    password: 'f29fb6e3',
+    database: 'heroku_a23db55140510ad'
 })
 
 module.exports = connection
