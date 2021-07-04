@@ -37,3 +37,10 @@ exports.getProducts = (req, res) => {
     res.setHeader('Access-Control-Allow-Headers', 'origin, content-type, accept')
 
 }
+
+exports.postOrder = (req, res) => {
+
+    const order = req.body
+    debugger
+    response.status(`Заказ на сумму ${order} принят.`, res)
+}

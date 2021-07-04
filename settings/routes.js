@@ -6,5 +6,6 @@ module.exports = (app) => {
     
     app.route(`/getcategories`).get(commonControler.getCategories)
     app.route(`/getproducts`).get(commonControler.getProducts)
+    app.route(`/postorder`).post(commonControler.postOrder)
 
 }
